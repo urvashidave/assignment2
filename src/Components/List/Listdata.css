@@ -1,0 +1,68 @@
+html,body{
+    height: 100%;
+    width: 100%;
+  }
+  
+  #container {
+    margin: auto;
+  }
+  
+  #poke-container {
+    margin: auto;
+    text-align:center;
+    width: 100%;
+    padding: 10px;
+    flex: 1;
+    overflow: scroll;
+    height: 503px;
+  }
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: grid;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    grid-template-columns: fit-content;
+    grid-gap: 10px;
+  }
+  
+  #header-container {
+    border-radius: 0px !important;
+  }
+  
+  #header-text{
+    margin: 0 auto;
+  }
+  
+  #generate-pokemon {
+    margin: 0 auto;
+  }
+  
+  #delete-btn {
+    position: absolute;
+    left: 85%;
+    display: none;
+    margin-bottom: 5%;
+  }
+  
+  img{
+    width:10%;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  a{
+    cursor:pointer;
+  }
+  a:hover {
+    background-color: skyblue !important;
+  }
+
+  img:hover {
+    transform: scale(2.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
